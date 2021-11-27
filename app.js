@@ -12,7 +12,7 @@ app.listen(port,()=> {
 console.log('listen port 8000');
 })
 
-// duplicate this route to make new dummy routes
+// duplicate this route to make new dummy routes and specific the endpoint instead of categories put whatever
 app.get('/categories', (req,res)=>{
     res.json(categories);
 })
